@@ -1,0 +1,63 @@
+.Item {
+  border-radius: 5px;
+  display: flex;
+  cursor: pointer;
+  align-items: start;
+  gap: 0px;
+  padding: 30px;
+  box-shadow: 3px 14px 10px 0px rgb(89 93 101 / 14%);
+  transition: all 300ms ease;
+  background-color: rgb(255 255 255);
+  color: black;
+  font-family: Roboto, sans-serif !important;
+  font-size: 15px;
+  flex-direction: column;
+}
+.Item:hover {
+  background-color: rgb(221, 221, 221);
+}
+.title {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.html {
+  background: rgb(252 239 231);
+  border-radius: 7px;
+  padding: 5px;
+}
+.css {
+  background: rgb(226 252 243);
+  border-radius: 7px;
+  padding: 5px;
+}
+.javascript {
+  background: rgb(233 241 252);
+  border-radius: 7px;
+  padding: 5px;
+}
+.accessibility {
+  background: rgb(246 230 255);
+  border-radius: 7px;
+  padding: 5px;
+}
+.Titulo {
+  font-weight: 700;
+  text-align: left !important;
+  line-height: 30px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 21px !important;
+}
+.Contenido {
+  color: gray;
+  font-size: 13px;
+  width: 100%;
+  text-align: left;
+}
+
+.ImgContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 100%;
+}

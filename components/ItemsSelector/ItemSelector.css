@@ -1,0 +1,17 @@
+.ItemSelector {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0;
+  padding: 15px;
+}
+
+.ElementsDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 30%;
+  float: left;
+  height: 70vh;
+  justify-content: center;
+}
